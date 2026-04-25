@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/students';
+const API_URL = 'https://lab-test-production-9b5b.up.railway.app/api/students';
 
 const emptyForm = {
   name:     '',
